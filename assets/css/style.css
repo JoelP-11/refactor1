@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header section {
+.header section {  /* changed from div to make it more semantic*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
+.header section ul { /*Did the same with this one and line 39*/
     list-style-type: none;
 }
 
@@ -86,7 +86,7 @@ p {
     background-color: #2589bd;
 }
 
-.aside-lead {
+.aside-lead { /*changed all of the benefits into aside*/
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -195,6 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h4 {
+.footer h4 { /*changed from h2 to h4 since footers shouldn't be so big*/
     font-size: 20px;
 }
